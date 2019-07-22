@@ -3,7 +3,6 @@ module github.com/tbe/pqparser
 go 1.12
 
 require (
-	github.com/davecgh/go-spew v1.1.0
 	github.com/go-pg/pg v8.0.4+incompatible
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/kr/pretty v0.1.0 // indirect
