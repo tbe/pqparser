@@ -1,4 +1,4 @@
-module gitlab.com/tbe/pqparser
+module github.com/tbe/pqparser
 
 go 1.12
 

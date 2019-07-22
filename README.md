@@ -26,11 +26,11 @@ func main() {
 }
 ```
 
-For full docuemnation about the behavior of `Parse`, see the [`libpq` documenation][2]
+For full documentation about the behavior of `Parse`, see the [`libpq` documenation][2]
 
 ## Limitations
 
-I difference to `libpq`, we use a TCP connection to `localhost` if no hostname is given.
+In difference to `libpq`, we use a TCP connection to `localhost` if no hostname is given.
 `libpq` has a default socket path, but we don't know where the socket could be found.
 
 Currently, there are a few features that are not implemented.

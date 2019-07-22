@@ -7,7 +7,7 @@ import (
 	"github.com/go-pg/pg"
 	"github.com/stretchr/testify/suite"
 
-	"gitlab.com/tbe/pqparser"
+	"github.com/tbe/pqparser"
 )
 
 type ParserTestSuite struct {

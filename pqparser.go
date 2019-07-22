@@ -20,7 +20,7 @@ const (
 )
 
 // Parse a connection string or URI.
-// The connection string is parse as defined in the libpq documentation:
+// The connection string is parsed as defined in the libpq documentation:
 // https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING
 //
 // The described environment variables are used exactly the same. If a value does not
@@ -177,7 +177,7 @@ func parseParameters(options *pg.Options, parameters map[string]string) error {
 
 		switch mode {
 		case "allow", "prefer", "require", "verify-ca":
-			// use InsecureSkipVerify for require, as the beavior of libpq is not implementable
+			// use InsecureSkipVerify for require, as the behavior of libpq is not implementable
 			// verify-ca can not be implemented, so we skip verification here
 			tlsconfig.InsecureSkipVerify = true
 			sslEnabled = true
